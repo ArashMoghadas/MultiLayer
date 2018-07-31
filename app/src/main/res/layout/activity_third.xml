@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ank3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+
+            <ImageView
+                android:id="@+id/castle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ank0" />
+
+            <ImageView
+                android:id="@+id/castle03"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/ank1" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="آنکارا پایتخت و پس از استانبول دومین شهر بزرگ کشور ترکیه است. این شهر هم‌چنین مرکز سیاسی استان آنکارا است.
+
+آنکارا شهری جدید و نسبتاً مدرن با ۴٬۳۱۹٬۱۶۷ نفر جمعیت است (آمار ۲۰۰۵). از مراکز دیدنی آن می‌توان آرامگاه آتاتورک و برج گردان خرید آتاکوله را نام برد. "
+            android:layout_marginTop="15sp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginRight="4dp"
+            />
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ank2"
+            android:layout_marginTop="20sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="سال 93 برای عمل چشم برای 2هفته به آنکارا سفر کردم. جدا از دردی که تکنیک جدید عمل داشت ولی بخاطر نتیجه دهی سریع عمل توانستم چند روزی هم شهر را بهتر ببینم و واقعا میتونم بگم زیباترین جایی بود که تا حالا دیدم از نظر معماری، فرهنگ و آداب مردم و..."
+            android:layout_marginTop="15sp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginRight="4dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="خانه"
+                android:background="#e79461"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:onClick="home"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="حرم مطهر"
+                android:background="#e79461"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:onClick="shrine"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

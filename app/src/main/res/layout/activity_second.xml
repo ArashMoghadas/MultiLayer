@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/h0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+
+
+            <ImageView
+                android:id="@+id/castle02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="20sp"
+                android:layout_marginLeft="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/h1" />
+
+            <ImageView
+                android:id="@+id/castle03"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20sp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/h2" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="حرمِ امام رضا یا حرم رضوی مدفن علی بن موسی الرضا، امام هشتم شیعیان امامی است. این مکان که در مرکز شهر مشهد در استان خراسان رضوی ایران واقع است، نزد شیعیان امامی به‌عنوان «حرم» و مکانی مقدس گرامی داشته می‌شود.
+
+حرم امام رضا مجموعه‌ای است با کانونِ آرامگاهِ علی بن موسی الرضا که دیگر مسجدها، آرامگاه‌ها، رواق‌ها، صحن‌ها، کتابخانه و موزه‌ها را دربرمی‌گیرد. مسجد بالاسر (۴۲۵ ه‍. ق/۱۰۳۳ م) و مسجد جامع گوهرشاد (ساختهٔ ۸۲۱ ه‍. ق/۱۴۱۸ م) از مهم‌ترین بناهای پیوسته به آن هستند.
+
+دیرینگی کهن‌ترین بخش‌های این حرم به دههٔ ۶۱۰ ه‍.ق (دههٔ ۱۲۳۰ م) می‌رسد."
+            android:layout_marginTop="15sp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginRight="4dp"
+            />
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/h3"
+            android:layout_marginTop="20sp"
+
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="اصولا خاطره ای از حرم ندارم و در طی 25سال عمرم فقط یکبار اونم برای تشیع مادربزرگمرفتم حرم!!! :)"
+            android:layout_marginTop="15sp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginRight="4dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="خانه"
+                android:background="#e79461"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:onClick="home"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="آنکارا"
+                android:background="#e79461"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:onClick="ankara"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
